@@ -1,0 +1,39 @@
+# This would give the value "value # this is a comment" to the FOO variable.
+# You need to use single-line comments instead, e.g:
+# ```
+#   # this is a comment:
+#   FOO=value
+# ```
+#
+#
+#
+# Frontend app URL and bare domain name:
+FRONTEND_URL=https://frontend.example.com
+FRONTEND_DOMAIN_NAME=frontend.example.com
+# Backend app URL and bare domain name:
+BACKEND_URL=https://backend.example.com
+BACKEND_DOMAIN_NAME=backend.example.com
+# Obtain the following 2 values on the Pi Developer Portal (open develop.pi in the Pi Browser).
+
+# Domain validation key:
+DOMAIN_VALIDATION_KEY=todo_developer_portal
+DOMAIN_VALIDATION_KEY=f45017617a20b6e677cb0d5d3f1240a7b073c61e7d8496719351109bce5ab48c2831f97dbafb2362f888965ec4d04ce59b6448be3d3842b2889e2ac9f1187a0a
+PI_API_KEY=todo_developer_portal
+PI_API_KEY=f45017617a20b6e677cb0d5d3f1240a7b073c61e7d8496719351109bce5ab48c2831f97dbafb2362f888965ec4d04ce59b6448be3d3842b2889e2ac9f1187a0a
+
+# Generate a random string, or roll your face on the keyboard to fill this value:
+SESSION_SECRET=abcd1324_TODO
+# MongoDB database connection details:
+MONGODB_DATABASE_NAME=demoapp
+MONGODB_USERNAME=demoapp
+MONGODB_PASSWORD=abcd1234
+# This will be prepended to all container names.
+# Changing this will make docker-compose lose track of all your containers.
+# Run `docker-compose down` before changing it.
+COMPOSE_PROJECT_NAME=pi-demo-app
+# Set this to either "development" or "production" (XXX "staging"?):
+ENVIRONMENT=production
+# This directory will be used to store all persistent data needed by Docker (using volumes):
+DATA_DIRECTORY=./docker-data
+# URL of the Pi Platform API - you should not need to change this.
+PLATFORM_API_URL=https://api.minepi.com
