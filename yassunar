@@ -8,15 +8,15 @@
 #
 #
 # Frontend app URL and bare domain name:
-FRONTEND_URL=https://frontend.example.com
-FRONTEND_DOMAIN_NAME=frontend.example.com
+FRONTEND_URL=https://socialchain4u.com
+FRONTEND_DOMAIN_NAME=frontend.socialchain4u.com
 # Backend app URL and bare domain name:
-BACKEND_URL=https://backend.example.com
-BACKEND_DOMAIN_NAME=backend.example.com
+BACKEND_URL=https://socialchain4u.com
+BACKEND_DOMAIN_NAME=backend.socialchain4u.com
 # Obtain the following 2 values on the Pi Developer Portal (open develop.pi in the Pi Browser).
 
 # Domain validation key:
-DOMAIN_VALIDATION_KEY=todo_developer_portal
+DOMAIN_VALIDATION_KEY=f45017617a20b6e677cb0d5d3f1240a7b073c61e7d8496719351109bce5ab48c2831f97dbafb2362f888965ec4d04ce59b6448be3d3842b2889e2ac9f1187a0a
 DOMAIN_VALIDATION_KEY=f45017617a20b6e677cb0d5d3f1240a7b073c61e7d8496719351109bce5ab48c2831f97dbafb2362f888965ec4d04ce59b6448be3d3842b2889e2ac9f1187a0a
 PI_API_KEY=todo_developer_portal
 PI_API_KEY=f45017617a20b6e677cb0d5d3f1240a7b073c61e7d8496719351109bce5ab48c2831f97dbafb2362f888965ec4d04ce59b6448be3d3842b2889e2ac9f1187a0a
